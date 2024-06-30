@@ -1,6 +1,6 @@
 @extends('layouts.app')
 <nav>
-    <div class="container  mx-auto font-medium  justify-between flex p-4 text--sec">
+    <div class="mx-auto font-medium  justify-between flex p-4 fixed bg-fixed bg-white top-0 right-0 left-0">
         <a href="">
             <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company">
         </a>
@@ -55,7 +55,7 @@
 </section>
 <section>
     <div class="container mx-auto grid grid-cols-12 gap-4 mt-12 mb-12">
-        <div class="col-start-1 col-span-4 ">
+        <div class="col-start-1 col-span-12 sm:col-span-4 text-center">
             <div class="flex flex-col p-4">
                 <h4 class="mb-2">
                     Smooth Touch
@@ -75,12 +75,12 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?</p>
             </div>
         </div>
-        <div class="col-start-5 col-span-4 ">
+        <div class="col-start-1 col-span-12 sm:col-span-4 sm:col-start-5">
             <div class="items-center  px-16">
                 <img class="w-[650px] h-[500px]" src="https://demo.gethugothemes.com/vex/site/images/watch.png" alt="">   
             </div> 
         </div>
-        <div class="col-start-9 col-span-4">
+        <div class="col-start-1 col-span-12  sm:col-start-9 sm:col-span-4 text-center">
                 <div class="flex flex-col p-4">
                     <h4 class="mb-2">
                         Smooth Touch
@@ -165,6 +165,15 @@
         <h2>
             Check My Product List ?
         </h2>
+    </div>
+</section>
+<section>
+    <div class=" flex overscroll-x-auto bg-red-300 gap-4">
+        <img class="w-[400] h-[500px]" src="https://demo.gethugothemes.com/vex/site/images/watch.png" alt="">
+        <img class="w-[400] h-[500px]" src="https://demo.gethugothemes.com/vex/site/images/watch.png" alt="">
+        <img class="w-[400] h-[500px]" src="https://demo.gethugothemes.com/vex/site/images/watch.png" alt="">
+        <img class="w-[400] h-[500px]" src="https://demo.gethugothemes.com/vex/site/images/watch.png" alt="">
+        <img class="w-[400] h-[500px]" src="https://demo.gethugothemes.com/vex/site/images/watch.png" alt="">
     </div>
 </section>
 @section('content')
