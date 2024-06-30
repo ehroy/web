@@ -26,6 +26,15 @@ export default {
             xl: "1200px",
         },
         extend: {
+            animation: {
+                "infinite-scroll": "infinite-scroll 25s linear infinite",
+            },
+            keyframes: {
+                "infinite-scroll": {
+                    from: { transform: "translateX(0)" },
+                    to: { transform: "translateX(-100%)" },
+                },
+            },
             colors: {
                 primary: {
                     DEFAULT: "#292f36",

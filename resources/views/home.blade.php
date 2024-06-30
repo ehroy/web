@@ -1,6 +1,6 @@
 @extends('layouts.app')
-<nav>
-    <div class="mx-auto font-medium  justify-between flex p-4 fixed bg-fixed bg-white top-0 right-0 left-0">
+<nav >
+    <div class=" sm:px-56 mx-auto font-medium  justify-between flex p-4 fixed bg-fixed bg-white top-0 right-0 left-0 overflow-hidden bg-">
         <a href="">
             <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company">
         </a>
@@ -26,7 +26,7 @@
         </i>
     </div>
 </nav>
-<section class="mt-8">
+<section class="mt-24">
     <div class="container mx-auto flex flex-col p-4 sm:flex-row sm:left-0 sm:right-0 overflow-hidden">
 
         <div class="items-center  px-16">
@@ -102,10 +102,10 @@
            </div>
     </div>
 </section>
-<div class=" mx-auto flex flex-col p-4 sm:flex-row sm:left-0 sm:right-0 overflow-hidden bg-orange-400 left-0 right-0">
+<div class=" mx-auto flex flex-col p-4 sm:flex-row sm:left-0 sm:right-0 overflow-hidden bg-orange-300 left-0 right-0">
 
     <div class="items-center  px-16">
-        <img class="w-[650px] h-[500px]" src="https://demo.gethugothemes.com/vex/site/images/watch.png" alt="">
+        <img class="w-[400px] h-[500px]" src="https://demo.gethugothemes.com/vex/site/images/watch.png" alt="">
         
     </div>
     <div class="mx-auto">
@@ -168,12 +168,34 @@
     </div>
 </section>
 <section>
-    <div class=" flex overscroll-x-auto bg-red-300 gap-4">
-        <img class="w-[400] h-[500px]" src="https://demo.gethugothemes.com/vex/site/images/watch.png" alt="">
-        <img class="w-[400] h-[500px]" src="https://demo.gethugothemes.com/vex/site/images/watch.png" alt="">
-        <img class="w-[400] h-[500px]" src="https://demo.gethugothemes.com/vex/site/images/watch.png" alt="">
-        <img class="w-[400] h-[500px]" src="https://demo.gethugothemes.com/vex/site/images/watch.png" alt="">
-        <img class="w-[400] h-[500px]" src="https://demo.gethugothemes.com/vex/site/images/watch.png" alt="">
+    <div class="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_400px,_black_calc(100%-200px),transparent_100%)] p-20 px-48">
+        <ul class="flex items-center justify-center md:justify-center [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll px-48 " aria-hidden="true" >
+            <li class="hover:opacity-25">
+                <img class="w-[150] h-[200]" src="https://demo.gethugothemes.com/vex/site/images/showcase/showcase-5.png" alt="">
+            </li>
+            <li class="hover:opacity-25">
+                <img class="w-[150] h-[200]" src="https://demo.gethugothemes.com/vex/site/images/showcase/showcase-6.png" alt="">
+            </li>
+            <li class="hover:opacity-25">
+                <img class="w-[150] h-[200]" src="https://demo.gethugothemes.com/vex/site/images/showcase/showcase-7.png" alt="">
+            </li>
+            <li class="hover:opacity-25">
+                <img class="w-[150] h-[200]" src="https://demo.gethugothemes.com/vex/site/images/showcase/showcase-8.png" alt="">
+            </li>
+            <li class="hover:opacity-25">
+                <img class="w-[150] h-[200]" src="https://demo.gethugothemes.com/vex/site/images/showcase/showcase-5.png" alt="">
+            </li>
+            <li class="hover:opacity-25">
+                <img class="w-[150] h-[200]" src="https://demo.gethugothemes.com/vex/site/images/showcase/showcase-6.png" alt="">
+            </li>
+            <li class="hover:opacity-25">
+                <img class="w-[150] h-[200]" src="https://demo.gethugothemes.com/vex/site/images/showcase/showcase-7.png" alt="">
+            </li>
+            <li class="hover:opacity-25">
+                <img class="w-[150] h-[200]" src="https://demo.gethugothemes.com/vex/site/images/showcase/showcase-8.png" alt="">
+            </li>
+        </ul>
+        
     </div>
 </section>
 @section('content')
